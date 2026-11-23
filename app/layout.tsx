@@ -30,9 +30,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/" className="font-bold text-blue-700">
               TeenCareer
             </Link>
-            <Link href="/resume" className="text-sm text-neutral-700 hover:underline">
-              Resume builder
-            </Link>
+            <div className="flex gap-4 text-sm text-neutral-700">
+              <Link href="/resume" className="hover:underline">
+                Resume builder
+              </Link>
+              <Link href="/jobs-guide" className="hover:underline">
+                Work rules
+              </Link>
+            </div>
           </nav>
         </header>
         <main className="flex-1">{children}</main>

@@ -22,6 +22,12 @@ export default function Home() {
       >
         Build my resume
       </Link>
+      <Link
+        href="/jobs-guide"
+        className="ml-3 mt-8 inline-block rounded-lg border border-neutral-300 bg-white px-6 py-3 font-medium text-neutral-800 hover:bg-neutral-50"
+      >
+        Massachusetts work rules
+      </Link>
       <p className="mt-3 text-sm text-neutral-500">
         Free. No account. Your information stays in your browser.
       </p>
