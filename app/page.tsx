@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const comingSoon = [
   "Interview practice with sample answers",
-  "Job and internship matches for ages 15 to 18",
+  "Verified Massachusetts job and internship listings (the board currently shows samples)",
   "Scripts for calling and emailing local businesses",
 ];
 
@@ -16,18 +16,26 @@ export default function Home() {
         TeenCareer helps students ages 15 to 18 get ready for their first job or internship. No
         experience needed.
       </p>
-      <Link
-        href="/resume"
-        className="mt-8 inline-block rounded-lg bg-blue-600 px-6 py-3 font-medium text-white hover:bg-blue-700"
-      >
-        Build my resume
-      </Link>
-      <Link
-        href="/jobs-guide"
-        className="ml-3 mt-8 inline-block rounded-lg border border-neutral-300 bg-white px-6 py-3 font-medium text-neutral-800 hover:bg-neutral-50"
-      >
-        Massachusetts work rules
-      </Link>
+      <div className="mt-8 flex flex-wrap gap-3">
+        <Link
+          href="/resume"
+          className="rounded-lg bg-blue-600 px-6 py-3 font-medium text-white hover:bg-blue-700"
+        >
+          Build my resume
+        </Link>
+        <Link
+          href="/jobs"
+          className="rounded-lg border border-neutral-300 bg-white px-6 py-3 font-medium text-neutral-800 hover:bg-neutral-50"
+        >
+          Browse jobs
+        </Link>
+        <Link
+          href="/jobs-guide"
+          className="rounded-lg border border-neutral-300 bg-white px-6 py-3 font-medium text-neutral-800 hover:bg-neutral-50"
+        >
+          Massachusetts work rules
+        </Link>
+      </div>
       <p className="mt-3 text-sm text-neutral-500">
         Free. No account. Your information stays in your browser.
       </p>

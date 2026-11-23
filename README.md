@@ -7,8 +7,9 @@ Career-readiness website for teens ages 15 to 18: first resume, interview practi
 - Landing page
 - First-resume builder at `/resume` (saves in the browser only, print or save as PDF)
 - Massachusetts work rules guide at `/jobs-guide` (hours, work permit, banned jobs by age). Data lives in `data/massachusetts-rules.ts` with source links and a last-checked date; re-verify against mass.gov before editing.
+- Job and internship board at `/jobs`, filterable by age, type, paid/unpaid, and Massachusetts city. Listings live in `data/jobs.ts`. **All current entries are sample data** (`sample: true`) and show a banner; replace them with confirmed openings. Listings past their deadline, or not re-confirmed (`lastConfirmed`) in 60 days, are hidden automatically.
 
-Planned: job and internship listings, outreach scripts, application tracker, interview practice.
+Planned: outreach scripts, application tracker, interview practice.
 
 ## Privacy
 

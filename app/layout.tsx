@@ -34,6 +34,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link href="/resume" className="hover:underline">
                 Resume builder
               </Link>
+              <Link href="/jobs" className="hover:underline">
+                Jobs
+              </Link>
               <Link href="/jobs-guide" className="hover:underline">
                 Work rules
               </Link>
